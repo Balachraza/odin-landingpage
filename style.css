@@ -1,0 +1,64 @@
+.body{
+   border: 10px;
+   border-color: black;
+   
+}
+
+.flex-container{
+    display: flex;
+   
+}
+.left{
+    padding: 100px;
+}
+.signup{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    
+}
+.right{
+    
+  height: 100px;
+  justify-content: flex-end;
+  margin-left: auto;
+  padding: 100px;
+
+  
+    
+}
+.Mainpage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+.firsthalf{
+    padding-left: 100px;
+    margin-bottom: 200px;
+    
+}
+.image{
+    display: flex;
+    padding: 100px;
+    margin: auto;
+    
+    
+}
+.info h3{
+    text-align: center;
+}
+.Midpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.imagee{
+    width: 200px;
+    height: auto;
+  }
+  .text{
+    
+  }
