@@ -6,10 +6,23 @@
 
 .flex-container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
    
 }
 .left{
-    padding: 100px;
+    padding-left: 100px;
+    margin: auto;
+    max-width: 900px;
+}
+.left h2{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.right a{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .signup{
     padding: 10px;
@@ -18,12 +31,16 @@
     font-weight: bold;
     
 }
+.wrapper{
+    background-color: #1F2937;
+}
 .right{
     
-  height: 100px;
-  justify-content: flex-end;
-  margin-left: auto;
+  
+  
   padding: 100px;
+    margin: auto;
+  
 
   
     
@@ -36,8 +53,18 @@
 }
 .firsthalf{
     padding-left: 100px;
-    margin-bottom: 200px;
+    margin: auto;
+    max-width: 900px;
     
+}
+.firsthalf p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#Website{
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 48px;
 }
 .image{
     display: flex;
@@ -46,19 +73,77 @@
     
     
 }
-.info h3{
-    text-align: center;
-}
-.Midpage{
+.container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 18px;
-}
-.imagee{
+    margin: 10px;
+    border-color: red;
+  }
+  
+  img {
     width: 200px;
     height: auto;
-  }
-  .text{
     
+  }
+  
+  .text-container {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .info{
+    text-align: center;
+  }
+  .quote {
+    text-align: center;
+    border-left: 4px solid #ccc;
+    padding-left: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  .quotation{
+    padding: 100px;
+    display: flex;
+    width: 600px; /* set the fixed length of the container */
+  margin: 0 auto; /* center the container horizontally */
+  
+  }
+  .midquote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+  }
+  .quotename{
+    padding-top: 120px;
+  }
+  .foot{
+    display: flex;
+    
+
+  }
+  .foooter{
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .btn{
+    align-items: flex-end;
+    margin: auto;
+  }
+  .info h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937
+  }
+  .wrapper2{
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
